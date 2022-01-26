@@ -1,0 +1,15 @@
+## Docker commands used to build the application 
+docker build -t techtreds . --progress=plain
+
+## Docker commands used to run the application
+docker run -p 7111:3111 techtreds
+
+## Docker commands used to get the application logs
+docker logs 3ef7da29ccb4
+
+## Logs from the container running the TechTrends application
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
